@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Recommendation System</title>
+</head>
+<body>
+    <h1>Movie Recommendation System</h1>
+    
+    <form method="POST">
+        <label for="movie">Enter your favourite movie:</label><br>
+        <input type="text" name="movie" required><br><br>
+        <input type="submit" value="Get Recommendations">
+    </form>
+    
+    {% if error_message %}
+        <p style="color:red;">{{ error_message }}</p>
+    {% endif %}
+    
+    {% if recommendations %}
+        <h2>Recommended Movies:</h2>
+        <ul>
+        {% for rec in recommendations %}
+            <li>{{ rec }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>
