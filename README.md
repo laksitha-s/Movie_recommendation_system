@@ -37,7 +37,7 @@ Open your browser and go to `http://127.0.0.1:5000/` to access the app.
 
 ## 🌍 Deployment
 This project is deployed on Render (or any hosting service you used). You can access it here:
-[🎥 Live Demo]([https://your-deployed-app-url](https://movie-recommendation-system-ml-mdh0.onrender.com))
+[🎥 Live Demo](https://movie-recommendation-system-ml-mdh0.onrender.com)
 
 ## 📂 File Structure 📁
 ```
